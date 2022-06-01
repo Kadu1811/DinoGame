@@ -12,10 +12,14 @@ function jump() {
     let upInterval = setInterval(() => {
         if(position >= 150) {
             clearInterval(upInterval);
-            
         //descendo
         let downInterval = setInterval(() => {
-
+            if(position <= 0) {
+                clearInterval(downInterval);
+            } else {
+                position -= 20;
+                dino.style.bottom = position + 'px';
+            }
         }, 20);
         } else {
             // subindo
