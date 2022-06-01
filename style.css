@@ -40,8 +40,8 @@ body {
     left: 20%;
     background-image: url('images/background.png');
     background-repeat: repeat-x;
-    -webkit-animation: slideright 1500s infinite linear;
-    animation: slideright 1500s infinite linear;
+    -webkit-animation: slideright 600s infinite linear;
+    animation: slideright 600s infinite linear;
     width: 50%;
     height: 200px;
 }
